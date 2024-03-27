@@ -8,7 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ConfirmBox {
-
+//Confirm box is nothing but it again ask us the conformation once again whether to proceed or not 
+//We can get the text from the confirm box and we can do actions like accept/dismiss 
 	public static void main(String[] args) throws Exception {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
