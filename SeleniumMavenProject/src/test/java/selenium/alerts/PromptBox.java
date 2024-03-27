@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PromptBox {
-
+//Prompt box we can enter the input and performs the actions like accept/dismiss
 	public static void main(String[] args) throws Exception {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
